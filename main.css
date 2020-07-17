@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: #607D8B;
-  color: #CFD8DC;
+  background-color: #AFB42B;
+  color: #212121;
 }
 
 .dark-primary-color    { background: #AFB42B; }
@@ -22,21 +22,19 @@ body {
   justify-content: space-evenly;
   margin: 50px 0px;
   flex-wrap: wrap;
-  flex-basis: 33rem;
 }
 
 .product-card-1 {
   width: 350px;
-  height: 675px;
-  border: solid 5px #CDDC39;
-  box-shadow: #BDBDBD 2px 5px 10px;
+  border: solid 5px #F0F4C3;
+  box-shadow: #757575 10px 10px 0px;
   margin: 50px 0px;
-  padding: 0px 15px;
-  background-color: #fff;
+  padding: 5px 15px;
+  background-color: #CDDC39;
 }
 
 header {
-  border-bottom: 1px solid lightblue;
+  border-bottom: 1px solid #607D8B;
   display: flex;
   justify-content: center;
   padding: 10px 0px;
