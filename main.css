@@ -8,11 +8,43 @@ body {
 }
 
 .product-card-1 {
-  width: 333px;
-  height: 500px;
+  width: 400px;
+  height: 675px;
   border: solid 5px teal;
+  box-shadow: wheat 10px 5px 5px;
+}
+
+header {
+  border-bottom: 1px solid lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.product-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 img {
-  width: 300px;
+  width: 200px;
+}
+
+.product-description {
+  text-align: justify;
+  margin: 0px 5px;
+}
+
+.product-availability {
+  background-color: darkgrey;
+  color: yellow;
+}
+
+ul {
+  font-weight: bold;
+  list-style: none;
+}
+
+h3 {
+  margin: 0px 5px;
 }
