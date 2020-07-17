@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #AFB42B;
+  background-color: #607D8B;
   color: #212121;
 }
 
@@ -26,11 +26,11 @@ body {
 
 .product-card-1 {
   width: 350px;
-  border: solid 5px #F0F4C3;
-  box-shadow: #757575 10px 10px 0px;
+  border: solid 5px #CDDC39;
+  box-shadow: #F0F4C3 5px 5px 0px;
   margin: 50px 0px;
   padding: 5px 15px;
-  background-color: #CDDC39;
+  background-color: #AFB42B;
 }
 
 header {
@@ -38,6 +38,9 @@ header {
   display: flex;
   justify-content: center;
   padding: 10px 0px;
+  font-family: 'Lora', serif;
+  letter-spacing: .05rem;
+
 }
 
 .product-img {
