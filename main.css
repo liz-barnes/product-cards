@@ -4,18 +4,9 @@
 }
 
 body {
-  background-color: #607D8B;
-  color: #212121;
+  background-color: #F5E5E0;
+  color: #fff;
 }
-
-.dark-primary-color    { background: #AFB42B; }
-.default-primary-color { background: #CDDC39; }
-.light-primary-color   { background: #F0F4C3; }
-.text-primary-color    { color: #212121; }
-.accent-color          { background: #607D8B; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; }
 
 .product-container {
   display: flex;
@@ -24,23 +15,26 @@ body {
   flex-wrap: wrap;
 }
 
-.product-card-1 {
-  width: 350px;
-  border: solid 5px #CDDC39;
-  box-shadow: #F0F4C3 5px 5px 0px;
-  margin: 50px 0px;
-  padding: 5px 15px;
-  background-color: #AFB42B;
+.product-card {
+  width: 25%;
+  margin: 25px;
+  padding-bottom: 10px;
+  background-color: #D8AD9C;
+  border: solid 5px #fff;
+  border-radius: 25px;
+  box-shadow: #EDD7CA 5px 5px 0px;
+  /* margin: 50px 0px;  */
+  /* padding: 5px 15px;  */
 }
 
 header {
-  border-bottom: 1px solid #607D8B;
+  border-bottom: 2px solid #EDD7CA;
   display: flex;
   justify-content: center;
-  padding: 10px 0px;
+  margin: 15px 35px;
+  padding-bottom: 10px;
   font-family: 'Lora', serif;
   letter-spacing: .05rem;
-
 }
 
 .product-img {
@@ -50,31 +44,48 @@ header {
 }
 
 img {
-  width: 200px;
+  width: 50%;
   border-radius: 5%;
 }
 
 .product-description {
   text-align: justify;
-
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
 .product-availability {
-  background-color: #757575;
+  /* background-color: #757575;
   color: yellow;
-  margin: 5px 0px;
-}
-
-ul {
+  margin: 5px 0px; */
+  background-color: #EDD7CA;
+  color: darkslategray;
+  margin: 2px 0px 5px 0px;
+  padding: 2px 5px;
+  font-family: 'Mulish', sans-serif;
   font-weight: bold;
-  list-style: none;
-  margin-left: 25px;
 }
 
 h3 {
-  margin: 0px 5px;
+  margin: 2px 10px;
+  font-family: 'Lora', serif;
+  font-weight: normal;
+}
+
+ul {
+  /* font-weight: bold;
+  list-style: none;
+  margin-left: 25px; */
+  list-style: none;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  letter-spacing: .05rem;
+  font-size: 14px;
 }
 
 footer {
-  margin: 5px 0px;
+  margin: 2px 10px;
+  font-family: 'Mulish', sans-serif;
 }
